@@ -21,3 +21,9 @@ False
 123.2
 angka = "123.4"
 float(angka)
+
+#rounded number
+print(round(2.1111111111, 2))
+
+#membagi angka dengan membulatkan tanpa mengubah menjadi float
+print(8 // 3)

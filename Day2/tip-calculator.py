@@ -25,10 +25,11 @@ split_people = input('How many people to split the bill? ')
 split_people_as_int = int(split_people)
 
 total = a / split_people_as_int
-totals = float(round(total, 2))
+# totals = float(round(total, 2))
+totalss = "{:.2f}".format(total)
 
 # total_round_by_2 = str(round(total, 3))
-result = f"Each person should pay: ${totals}"
+result = f"Each person should pay: ${totalss}"
 
 print(result)
 

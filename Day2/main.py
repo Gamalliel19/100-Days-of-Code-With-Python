@@ -27,3 +27,10 @@ print(round(2.1111111111, 2))
 
 #membagi angka dengan membulatkan tanpa mengubah menjadi float
 print(8 // 3)
+
+#f-Strings
+skor = 10
+height = 1.55
+wangi = True
+
+print(f"Tinggi saya {height} bersifat {wangi} dan memiliki skor {10}")
